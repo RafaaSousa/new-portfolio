@@ -29,7 +29,7 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-contain pl-5 xl:pl-10"
+            className="object-contain pl-5 xl:pl-10 pt-4 rounded-full"
           />
         </motion.div>
 
