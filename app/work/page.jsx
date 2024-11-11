@@ -28,35 +28,40 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "project 1",
+    title: "White-label",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt adipisci quisquam deleniti ea facilis impedit.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Participei do desenvolvimento frontend do projeto white-label usando as tecnologias Next.js e Tailwind CSS, focado em criar um site de mentoria customizável. Contribuí na criação de componentes dinâmicos, filtragem por cidade e grau de ensino, além de integrar modais de login e otimizar a experiência do usuário.",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: thumbOne,
     live: "",
-    github: "",
+    github: "https://github.com/whitelabel-apv/whitelabel-frontend.git",
   },
   {
     num: "02",
     category: "fullstack",
     title: "project 2",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt adipisci quisquam deleniti ea facilis impedit.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Desenvolvi este projeto fullstack com Vite.js, Tailwind CSS e Node.js, criando interfaces modernas e responsivas. No frontend, utilizei Radix UI, lucide-react e integração com sonner para feedbacks visuais, enquanto no backend implementei funcionalidades robustas e otimizadas para alta performance.",
+    stack: [
+      { name: "Vite.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind.css" },
+      { name: "Node.js" },
+    ],
     image: thumbTwo,
-    live: "",
-    github: "",
+    live: "https://nlw-expert-notes-brown.vercel.app",
+    github: "https://github.com/RafaaSousa/nlw-expert-notes.git",
   },
   {
     num: "03",
     category: "frontend",
-    title: "project 3",
+    title: "Crypto Wallet",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt adipisci quisquam deleniti ea facilis impedit.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "Atuei no desenvolvimento do frontend usando Next.js e CSS, criando interfaces seguras e responsivas para gerenciamento de criptomoedas. Trabalhei em integração com o backend em Node.js, implementando autenticação e transações em tempo real.",
+    stack: [{ name: "Next.js" }, { name: "CSS" }, { name: "Node.js" }],
     image: thumbThree,
     live: "",
-    github: "",
+    github: "https://github.com/RafaaSousa/crypto-wallet.git",
   },
 ];
 
@@ -109,7 +114,7 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -122,7 +127,7 @@ const Work = () => {
                   </TooltipProvider>
                 </Link>
                 {/* github project button */}
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
