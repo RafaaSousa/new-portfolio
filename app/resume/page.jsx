@@ -13,24 +13,24 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About me",
+  title: "Sobre",
   description:
-    "Desenvolvo e aprimoro sistemas e interfaces com foco em soluçõesinovadoras, atuando como Desenvolvedor Front End e Analista de Sistemas especializado em React.js e Next.js.",
+    "Olá! Sou Rafael Sousa, um desenvolvedor apaixonado por criar soluções tecnológicas impactantes e experiências digitais memoráveis. Com mais de 2 anos de experiência, tenho atuado em projetos que vão desde desenvolvimento frontend, utilizando React.js e Next.js, até a construção de backends robustos com Node.js. Valorizo inovação, usabilidade e performance, buscando sempre elevar o padrão do que entrego. Quando não estou codificando, você pode me encontrar explorando novas tecnologias, praticando atividades físicas, ou aperfeiçoando meu inglês. Vamos transformar ideias em realidade juntos?",
   info: [
     {
       fieldName: "Name",
       fieldValue: "Rafael Sousa",
     },
     {
-      fieldName: "Phone",
+      fieldName: "Tel.",
       fieldValue: "(+55) 11 96070 2307",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "4+ Years",
+      fieldName: "Experiencia",
+      fieldValue: "2+ Years",
     },
     {
-      fieldName: "Nationality",
+      fieldName: "Nacionalidade",
       fieldValue: "Brasil",
     },
     {
@@ -38,12 +38,8 @@ const about = {
       fieldValue: "rafael.p.sousa@hotmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "Portugues, English",
+      fieldName: "Idiomas",
+      fieldValue: "Português, Inglês",
     },
   ],
 };
@@ -51,88 +47,106 @@ const about = {
 // experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "Experiencia Profissional",
   description:
-    "Desenvolvo e aprimoro sistemas e interfaces com foco em soluçõesinovadoras, atuando como Desenvolvedor Front End e Analista de Sistemas especializado em React.js e Next.js.",
+    "Minha trajetória profissional reflete dedicação e evolução contínua na área de desenvolvimento de software. Durante minha atuação na Almeida Santos Advogados, adquiri habilidades em lidar com sistemas complexos e demandas críticas, aprimorando minha capacidade de solucionar problemas com eficiência e trabalho em equipe. Recentemente, tenho me dedicado a projetos em Next.js, Tailwind CSS e Node.js, desenvolvendo soluções white-label e sites de mentoria que impactam positivamente o mercado. Além disso, estou imerso em projetos de plataformas web robustas com foco em usabilidade, performance e segurança. Minha experiência abrange tanto o desenvolvimento frontend quanto a estruturação de backends organizados e seguros, com o objetivo de entregar produtos que superem as expectativas do usuário final.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Projeto Bolsa Livre",
+      position: "Desenvolvedor Frontend",
+      duration: "Em andamento",
     },
     {
-      company: "Web Design Studio.",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Projeto White Label",
+      position: "Desenvolvedor Frontend",
+      duration: "Em andamento",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Projeto Crypto Wallet",
+      position: "Desenvolvedor Full Stack",
+      duration: "Em andamento",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
+      company: "Freelance",
+      position: "Desenvolvedor Full Stack",
+      duration: "2023 - Presente",
     },
     {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Almeida Santos Advogados",
+      position: "Analista de Sistemas",
+      duration: "2017 - 2024",
     },
   ],
 };
+
 
 // education data
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "Formação Acadêmica",
   description:
-    "Desenvolvo e aprimoro sistemas e interfaces com foco em soluçõesinovadoras, atuando como Desenvolvedor Front End e Analista de Sistemas especializado em React.js e Next.js.",
+    "Minha formação e certificações destacam meu compromisso em evoluir continuamente na área de tecnologia e desenvolvimento de software. Com experiências que abrangem inteligência emocional, front-end, DevOps e especializações em JavaScript, estou sempre focado em aprimorar minhas habilidades e oferecer soluções robustas.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Conquer",
+      degree: "Inteligência Emocional 4.0",
+      duration: "Outubro de 2024",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "Alura",
+      degree: "Imersão Front-End",
+      duration: "Fevereiro de 2024",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "Rocketseat",
+      degree: "NLW Expert trilha de React",
+      duration: "Fevereiro de 2024",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "Intuix Academy",
+      degree: "Lei Geral de Proteção de Dados (LGPD)",
+      duration: "Agosto de 2023",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "Intuix Academy",
+      degree: "ESG - Environmental, Social and Governance",
+      duration: "Agosto de 2023",
     },
     {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "DIO",
+      degree: "Formação JavaScript",
+      duration: "Julho de 2023",
+    },
+    {
+      institution: "DIO",
+      degree: "Git e GitHub",
+      duration: "Julho de 2023",
+    },
+    {
+      institution: "ITCERTS",
+      degree: "DevOps Essentials",
+      duration: "Setembro de 2018",
+    },
+    {
+      institution: "ITCERTS",
+      degree: "DevOps Essentials",
+      duration: "Setembro de 2018",
+    },
+    {
+      institution: "Faculdade Sumaré",
+      degree: "Tecnologia de Banco de Dados",
+      duration: "Concluído em 2017",
     },
   ],
 };
 
+
+
 //skills data
 const skills = {
-  title: "My skills",
+  title: "Skills",
   description:
-    "Desenvolvo e aprimoro sistemas e interfaces com foco em soluçõesinovadoras, atuando como Desenvolvedor Front End e Analista de Sistemas especializado em React.js e Next.js.",
+    "Minha jornada profissional me permitiu adquirir uma ampla gama de habilidades em desenvolvimento front-end e back-end, focando em tecnologias modernas e experiência do usuário. Sou proficiente em HTML5 e CSS3 para construção de layouts responsivos e acessíveis. Utilizo JavaScript como base sólida para desenvolvimento dinâmico, enquanto React.js e Next.js são minhas especialidades para criar interfaces eficientes e escaláveis. Com Tailwind CSS, garanto um design moderno e consistente. No backend, minha experiência com Node.js possibilita a construção de APIs robustas. Além disso, utilizo Figma para prototipagem e design centrado no usuário, garantindo uma experiência visual de alta qualidade.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -193,54 +207,45 @@ const Resume = () => {
     >
       <div className="container mx-auto">
         <Tabs
-          defaultValue="experience"
+          defaultValue="about"
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="about">Sobre</TabsTrigger>
+            <TabsTrigger value="education">Formação acadêmica</TabsTrigger>
+            <TabsTrigger value="experience">Experiencia Profissional</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
           </TabsList>
 
           {/* content */}
           <div className="min-h-[70vh] w-full">
-            {/* experience */}
-            <TabsContent value="experience" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">{experience.title}</h3>
+            {/* about */}
+            <TabsContent
+              value="about"
+              className="w-full text-justify"
+            >
+              <div className="flex flex-col gap-[30px]">
+                <h3 className="text-4xl font-bold text-center xl:text-left">{about.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                  {experience.description}
+                  {about.description}
                 </p>
-                <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    {experience.items.map((item, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 "
-                        >
-                          <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.position}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.company}</p>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </ScrollArea>
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                  {about.info.map((item, index) => {
+                    return (
+                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                        <span className="text-white/60">{item.fieldName}</span>
+                        <span className="text-sm">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </TabsContent>
 
             {/* education */}
             <TabsContent value="education" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">{education.title}</h3>
+              <div className="flex flex-col gap-[30px] text-justify">
+                <h3 className="text-4xl font-bold text-center xl:text-left">{education.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
@@ -269,11 +274,43 @@ const Resume = () => {
               </div>
             </TabsContent>
 
+            {/* experience */}
+            <TabsContent value="experience" className="w-full">
+              <div className="flex flex-col gap-[30px] text-justify">
+                <h3 className="text-4xl font-bold text-center xl:text-left">{experience.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {experience.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {experience.items.map((item, index) => {
+                      return (
+                        <li
+                          key={index}
+                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 "
+                        >
+                          <span className="text-accent">{item.duration}</span>
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                            {item.position}
+                          </h3>
+                          <div className="flex items-center gap-3">
+                            {/* dot */}
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">{item.company}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+
             {/* skills */}
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px] ">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                <div className="flex flex-col gap-[30px] text-justify">
+                  <h3 className="text-4xl font-bold text-center xl:text-left">{skills.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                     {skills.description}
                   </p>
@@ -294,29 +331,6 @@ const Resume = () => {
                             </TooltipContent>
                           </Tooltip>
                         </TooltipProvider>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            </TabsContent>
-
-            {/* about */}
-            <TabsContent
-              value="about"
-              className="w-full text-center xl:text-left"
-            >
-              <div className="flex flex-col gap-[30px]">
-                <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                  {about.description}
-                </p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
-                  {about.info.map((item, index) => {
-                    return (
-                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
-                        <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-sm">{item.fieldValue}</span>
                       </li>
                     );
                   })}
