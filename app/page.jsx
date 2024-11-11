@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -6,6 +8,13 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
+const handleDownloadCV = () => {
+  const link = document.createElement("a");
+  link.href = "../cv.pdf";
+  link.download = "cv.pdf";
+  link.click();
+};
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -13,25 +22,28 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Desenvolvedor Full Stack</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Rafael Sousa</span>
+              Olá, sou <br /> <span className="text-accent">Rafael Sousa</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              Desenvolvo e aprimoro sistemas e interfaces com foco em soluções
-              inovadoras, atuando como Desenvolvedor Front End e Analista de
-              Sistemas especializado em React.js e Next.js.
+            <p className="max-w-[500px] mb-9 text-white/80 text-justify">
+              Desenvolvedor apaixonado por transformar ideias em soluções
+              completas, com especialização em React.js e Next.js e foco em me
+              tornar Full Stack. Crio interfaces inovadoras e sistemas backend
+              robustos, entregando experiências digitais que encantam e geram
+              valor.
             </p>
             {/* btn and socials*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                  onClick={handleDownloadCV}
+                >
+                  <span>Baixar CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
