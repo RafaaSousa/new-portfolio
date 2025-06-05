@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "Sobre",
   description:
-    "Olá! Sou Rafael Sousa, um desenvolvedor apaixonado por criar soluções tecnológicas impactantes e experiências digitais memoráveis. Com mais de 2 anos de experiência, tenho atuado em projetos que vão desde desenvolvimento frontend, utilizando React.js e Next.js, até a construção de backends robustos com Node.js. Valorizo inovação, usabilidade e performance, buscando sempre elevar o padrão do que entrego. Quando não estou codificando, você pode me encontrar explorando novas tecnologias, praticando atividades físicas, ou aperfeiçoando meu inglês. Vamos transformar ideias em realidade juntos?",
+    "Olá! Sou Rafael Sousa, um desenvolvedor apaixonado por criar soluções tecnológicas impactantes e experiências digitais memoráveis. Com mais de 3 anos de experiência, tenho atuado em projetos que vão desde desenvolvimento frontend, utilizando React.js e Next.js, até a construção de backends robustos com Node.js. Valorizo inovação, usabilidade e performance, buscando sempre elevar o padrão do que entrego. Quando não estou codificando, você pode me encontrar explorando novas tecnologias, praticando atividades físicas, ou aperfeiçoando meu inglês. Vamos transformar ideias em realidade juntos?",
   info: [
     {
       fieldName: "Name",
@@ -27,7 +27,7 @@ const about = {
     },
     {
       fieldName: "Experiencia",
-      fieldValue: "2+ Years",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Nacionalidade",
@@ -49,22 +49,42 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "Experiencia Profissional",
   description:
-    "Minha trajetória profissional reflete dedicação e evolução contínua na área de desenvolvimento de software. Durante minha atuação na Almeida Santos Advogados, adquiri habilidades em lidar com sistemas complexos e demandas críticas, aprimorando minha capacidade de solucionar problemas com eficiência e trabalho em equipe. Recentemente, tenho me dedicado a projetos em Next.js, Tailwind CSS e Node.js, desenvolvendo soluções white-label e sites de mentoria que impactam positivamente o mercado. Além disso, estou imerso em projetos de plataformas web robustas com foco em usabilidade, performance e segurança. Minha experiência abrange tanto o desenvolvimento frontend quanto a estruturação de backends organizados e seguros, com o objetivo de entregar produtos que superem as expectativas do usuário final.",
+    "Minha trajetória profissional reflete dedicação e evolução contínua na área de desenvolvimento de software. Durante minha atuação na Almeida Santos Advogados, adquiri habilidades em lidar com sistemas complexos e demandas críticas, aprimorando minha capacidade de solucionar problemas com eficiência e trabalho em equipe. Recentemente, tenho me dedicado a projetos em Next.js, Tailwind CSS e Node.js, desenvolvendo soluções white-label e sites que impactam positivamente o mercado. Além disso, estou imerso em projetos de plataformas web robustas com foco em usabilidade, performance e segurança. Minha experiência abrange tanto o desenvolvimento frontend quanto a estruturação de backends organizados e seguros, com o objetivo de entregar produtos que superem as expectativas do usuário final.",
   items: [
+    {
+      company: "Projeto Vitor Garcia",
+      position: "Desenvolvedor Full Stack",
+      duration: "2025 - 1 meses",
+    },
+    {
+      company: "Projeto Psic Mariana Trancoso",
+      position: "Desenvolvedor Full Stack",
+      duration: "2025 - 1 meses",
+    },
+    {
+      company: "Projeto Flora Canaa",
+      position: "Desenvolvedor Full Stack",
+      duration: "2025 - 1 meses",
+    },
+    {
+      company: "Projeto IVAA",
+      position: "Desenvolvedor Full Stack",
+      duration: "2025 - 3 meses",
+    },
     {
       company: "Projeto Bolsa Livre",
       position: "Desenvolvedor Frontend",
-      duration: "Em andamento",
+      duration: "2024 - 3 meses",
     },
     {
       company: "Projeto White Label",
       position: "Desenvolvedor Frontend",
-      duration: "Em andamento",
+      duration: "2024 - 3 meses",
     },
     {
       company: "Projeto Crypto Wallet",
       position: "Desenvolvedor Full Stack",
-      duration: "Em andamento",
+      duration: "2023 - 6 meses",
     },
     {
       company: "Freelance",
@@ -87,6 +107,21 @@ const education = {
   description:
     "Minha formação e certificações destacam meu compromisso em evoluir continuamente na área de tecnologia e desenvolvimento de software. Com experiências que abrangem inteligência emocional, front-end, DevOps e especializações em JavaScript, estou sempre focado em aprimorar minhas habilidades e oferecer soluções robustas.",
   items: [
+    {
+      institution: "Udemy",
+      degree: "Engenharia de Software",
+      duration: "Janeiro de 2025",
+    },
+    {
+      institution: "Alura",
+      degree: "Imersão Back-end",
+      duration: "Dezembro de 2024",
+    },
+    {
+      institution: "Cubo Academy",
+      degree: "Product Design",
+      duration: "Outubro de 2024",
+    },
     {
       institution: "Conquer",
       degree: "Inteligência Emocional 4.0",
@@ -121,11 +156,6 @@ const education = {
       institution: "DIO",
       degree: "Git e GitHub",
       duration: "Julho de 2023",
-    },
-    {
-      institution: "ITCERTS",
-      degree: "DevOps Essentials",
-      duration: "Setembro de 2018",
     },
     {
       institution: "ITCERTS",

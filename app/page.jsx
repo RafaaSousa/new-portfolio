@@ -28,8 +28,8 @@ const Home = () => {
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 text-justify">
               Desenvolvedor apaixonado por transformar ideias em soluções
-              completas, com especialização em React.js e Next.js e foco em me
-              tornar Full Stack. Crio interfaces inovadoras e sistemas backend
+              completas, com especialização em React.js e Next.js. 
+              Crio interfaces inovadoras e sistemas backend
               robustos, entregando experiências digitais que encantam e geram
               valor.
             </p>
