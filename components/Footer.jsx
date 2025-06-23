@@ -1,11 +1,28 @@
+"use client"
+
 import React from "react";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="py-4 text-center">
-      <div className="border border-white/10 my-5"></div>
-      <p className="text-white/30">© 2024 Rafael Sousa. Todos os direitos reservados.</p>
-    </footer>
+    <motion.footer
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true }}
+      className="py-8 px-4 bg-white/5 border-t border-white/10 text-center mt-16"
+    >
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6">
+          <span className="text-white/70 text-sm">© 2024 Rafael Sousa. Todos os direitos reservados.</span>
+          <a href="mailto:rafael.p.sousa@hotmail.com" className="text-accent hover:underline text-sm transition-colors duration-200">rafael.p.sousa@hotmail.com</a>
+        </div>
+        <div className="flex gap-4 justify-center">
+          <a href="https://github.com/RafaaSousa" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors duration-200">GitHub</a>
+          <a href="https://www.linkedin.com/in/rafaelpsousa/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors duration-200">LinkedIn</a>
+        </div>
+      </div>
+    </motion.footer>
   );
 };
 

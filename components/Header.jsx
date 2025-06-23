@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 
 // components
@@ -6,8 +9,25 @@ import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="py-8 xl:py-12 text-white">
+    <header
+      className={`py-6 text-white ${
+        isSticky
+          ? "sticky top-0 z-30 bg-primary shadow-lg transition-all duration-300"
+          : ""
+      }`}>
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href="/">

@@ -2,11 +2,15 @@
 
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import WhatsAppCta from "@/components/WhatsAppCta";
 
 //components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Resume from "@/components/Resume";
+import Work from "@/components/Work";
+import Testimonials from "@/components/Testimonials";
 
 const handleDownloadCV = () => {
   const link = document.createElement("a");
@@ -17,6 +21,8 @@ const handleDownloadCV = () => {
 
 const Home = () => {
   return (
+    <>
+
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
@@ -60,6 +66,24 @@ const Home = () => {
       </div>
       <Stats />
     </section>
+
+    <section className="mt-10 mx-auto">
+      <Resume />
+    </section>
+
+    <section className="mt-">
+      <Work />
+    </section>
+
+    <section className="mt-">
+      <Testimonials />
+    </section>
+
+    <section>
+      <WhatsAppCta />
+    </section>
+    
+    </>
   );
 };
 
