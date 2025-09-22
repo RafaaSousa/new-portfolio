@@ -9,10 +9,12 @@ const experience = {
   description:
     "Minha trajetória profissional reflete dedicação e evolução contínua na área de desenvolvimento de software. Trabalhei em projetos desafiadores que me permitiram lidar com sistemas complexos, entregando soluções de alta performance e escalabilidade. Atualmente, foco no desenvolvimento frontend com React e Next.js, aliado à construção de backends robustos com Node.js.",
   items: [
+    { company: "Projeto Wall Arcanjo", position: "Desenvolvedor Full Stack", duration: "2025 - 2 mês" },
     { company: "Projeto Vitor Garcia", position: "Desenvolvedor Full Stack", duration: "2025 - 1 mês" },
     { company: "Projeto Psic Mariana Trancoso", position: "Desenvolvedor Full Stack", duration: "2025 - 1 mês" },
     { company: "Projeto Flora Canaa", position: "Desenvolvedor Full Stack", duration: "2025 - 1 mês" },
     { company: "Projeto IVAA", position: "Desenvolvedor Full Stack", duration: "2025 - 3 meses" },
+    { company: "Projeto Harmony Coffee", position: "Desenvolvedor Full Stack", duration: "2024 - 1 mês" },
     { company: "Projeto Bolsa Livre", position: "Desenvolvedor Frontend", duration: "2024 - 3 meses" },
     { company: "Projeto White Label", position: "Desenvolvedor Frontend", duration: "2024 - 3 meses" },
     { company: "Projeto Crypto Wallet", position: "Desenvolvedor Full Stack", duration: "2023 - 6 meses" },

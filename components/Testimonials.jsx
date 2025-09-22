@@ -8,44 +8,29 @@ import "swiper/css";
 
 const testimonials = [
   {
-    name: "João Silva",
-    role: "CEO na Startup X",
+    name: "Alex Silva",
+    role: "CEO na Imaginy",
     text: "O Rafael superou nossas expectativas, entregando soluções inovadoras e com excelente qualidade. Recomendo fortemente!",
   },
   {
-    name: "Maria Oliveira",
-    role: "CTO na Tech Solutions",
+    name: "Camila Pedra",
+    role: "CEO na IVAA",
     text: "Profissional dedicado, sempre atento aos detalhes e com ótima comunicação. Nossos projetos evoluíram muito com sua participação!",
   },
   {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
+    name: "Vitor Garcia",
+    role: "CEO na Vitor Garcia",
+    text: "O trabalho do Rafael é impecável, ele tem um olhar apurado para os detalhes e foi fundamental para o sucesso do nosso projeto!",
   },
   {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
+    name: "Eduardo Rocha",
+    role: "Product Manager na Flora Canaã",
+    text: "Extremamente competente e colaborativo. O Rafael se integrou rapidamente à equipe e contribuiu de forma significativa com seu conhecimento.",
   },
   {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
-  },
-  {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
-  },
-  {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
-  },
-  {
-    name: "Carlos Souza",
-    role: "Product Manager na WebDev Co.",
-    text: "O Rafael trouxe ideias criativas e implementou tudo com agilidade e precisão. Excelente parceiro de equipe!",
+    name: "Mariana Trancoso",
+    role: "CEO na Psic Mariana Trancoso",
+    text: "Tive uma experiência fantástica trabalhando com o Rafael. Ele é proativo e resolveu nossos desafios com muita criatividade e eficiência.",
   },
 ];
 
