@@ -73,7 +73,7 @@ const Work = () => {
   };
   return (
     <motion.section
-      id="work"
+      
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,

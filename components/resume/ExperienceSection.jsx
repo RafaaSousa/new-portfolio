@@ -25,7 +25,7 @@ const experience = {
 
 const ExperienceSection = ({ forwardedRef }) => {
   return (
-    <div ref={forwardedRef} className="flex flex-col gap-[30px] animate-fadeIn">
+    <div ref={forwardedRef} id="work" className="flex flex-col gap-[30px] animate-fadeIn">
       <div className="flex flex-col gap-[30px] text-justify">
         <h3 className="text-4xl font-bold text-center xl:text-left">{experience.title}</h3>
       </div>
