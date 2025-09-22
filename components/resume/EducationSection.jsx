@@ -9,6 +9,9 @@ const education = {
   description:
     "Minha formação e certificações demonstram meu compromisso em evoluir constantemente na área de tecnologia.",
   items: [
+    { institution: "Alura", degree: "Imersão Agentes de IA", duration: "Ago 2025" },
+    { institution: "Alura", degree: "Imersão DevOps", duration: "Jun 2025" },
+    { institution: "Udemy", degree: "Arquitetura de Software e Design de Sistemas", duration: "Fev 2025" },
     { institution: "Udemy", degree: "Engenharia de Software", duration: "Jan 2025" },
     { institution: "Alura", degree: "Imersão Back-end", duration: "Dez 2024" },
     { institution: "Cubos Academy", degree: "Product Design", duration: "Out 2024" },
