@@ -19,9 +19,6 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-import thumbOne from "@/app/public/assets/work/thumb1.png";
-import thumbTwo from "@/app/public/assets/work/thumb2.png";
-import thumbThree from "@/app/public/assets/work/thumb3.png";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
@@ -32,7 +29,7 @@ const projects = [
     description:
       "Participei do desenvolvimento frontend do projeto white-label usando as tecnologias Next.js e Tailwind CSS, focado em criar um site de mentoria customizável. Contribuí na criação de componentes dinâmicos, filtragem por cidade e grau de ensino, além de integrar modais de login e otimizar a experiência do usuário.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: thumbOne,
+    image: "/assets/work/thumb1.png",
     live: "",
     github: "https://github.com/whitelabel-apv/whitelabel-frontend.git",
   },
@@ -48,7 +45,7 @@ const projects = [
       { name: "Tailwind.css" },
       { name: "Node.js" },
     ],
-    image: thumbTwo,
+    image: "/assets/work/thumb2.png",
     live: "https://nlw-expert-notes-brown.vercel.app",
     github: "https://github.com/RafaaSousa/nlw-expert-notes.git",
   },
@@ -59,7 +56,7 @@ const projects = [
     description:
       "Atuei no desenvolvimento do frontend usando Next.js e CSS, criando interfaces seguras e responsivas para gerenciamento de criptomoedas. Trabalhei em integração com o backend em Node.js, implementando autenticação e transações em tempo real.",
     stack: [{ name: "Next.js" }, { name: "CSS" }, { name: "Node.js" }],
-    image: thumbThree,
+    image: "/assets/work/thumb3.png",
     live: "",
     github: "https://github.com/RafaaSousa/crypto-wallet.git",
   },

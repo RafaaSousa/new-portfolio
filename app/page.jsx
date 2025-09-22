@@ -8,14 +8,14 @@ import WhatsAppCta from "@/components/WhatsAppCta";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
-import Resume from "@/components/Resume";
+import ResumeScroll from "@/components/ResumeScroll";
 import Work from "@/components/Work";
 import Testimonials from "@/components/Testimonials";
 
 const handleDownloadCV = () => {
   const link = document.createElement("a");
-  link.href = "../cv.pdf";
-  link.download = "cv.pdf";
+  link.href = "/CV - Rafael Sousa.pdf";
+  link.download = "CV - Rafael Sousa.pdf";
   link.click();
 };
 
@@ -68,7 +68,7 @@ const Home = () => {
     </section>
 
     <section className="mt-10 mx-auto">
-      <Resume />
+      <ResumeScroll />
     </section>
 
     <section className="mt-">

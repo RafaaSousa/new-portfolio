@@ -12,11 +12,15 @@ const links = [
   },
   {
     name: "Sobre",
-    path: "/resume",
+    path: "#about",
   },
   {
     name: "Projetos",
-    path: "/work",
+    path: "#work",
+  },
+  {
+    name: "Depoimentos",
+    path: "#testimonials",
   },
   {
     name: "Contato",
@@ -26,6 +30,17 @@ const links = [
 
 const MobileNav = () => {
   const pathname = usePathname();
+
+  const handleSmoothScroll = (e, path) => {
+    if (path.startsWith("#")) {
+      e.preventDefault();
+      const el = document.querySelector(path);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
@@ -43,6 +58,7 @@ const MobileNav = () => {
         {/* nav */}
         <nav className="flex flex-col justify-center items-center gap-8">
           {links.map((link, index) => {
+            const isAnchor = link.path.startsWith("#");
             return (
               <Link
                 href={link.path}
@@ -51,6 +67,10 @@ const MobileNav = () => {
                   link.path === pathname &&
                   "text-accent border-b-2 border-accent"
                 } text-xl capitalize hover:text-accent transition-all`}
+                onClick={
+                  isAnchor ? (e) => handleSmoothScroll(e, link.path) : undefined
+                }
+                scroll={false}
               >
                 {link.name}
               </Link>

@@ -19,7 +19,8 @@ const Footer = () => {
         </div>
         <div className="flex gap-4 justify-center">
           <a href="https://github.com/RafaaSousa" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors duration-200">GitHub</a>
-          <a href="https://www.linkedin.com/in/rafaelpsousa/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors duration-200">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rafael-p-sousa" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors duration-200">LinkedIn</a>
+
         </div>
       </div>
     </motion.footer>
