@@ -11,16 +11,16 @@ const links = [
   },
   {
     name: "Sobre",
-    path: "#about",
+    path: "/#about",
 
   },
   {
     name: "Projetos",
-    path: "#work",
+    path: "/#work",
   },
   {
     name: "Depoimentos",
-    path: "#testimonials",
+    path: "/#testimonials",
   },
 ];
 
@@ -28,9 +28,10 @@ const Nav = () => {
   const pathname = usePathname();
 
   const handleSmoothScroll = (e, path) => {
-    if (path.startsWith("#")) {
+    const hash = path.includes('#') ? `#${path.split('#')[1]}` : path;
+    if (hash.startsWith("#")) {
       e.preventDefault();
-      const el = document.querySelector(path);
+      const el = document.querySelector(hash);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
       }
@@ -40,14 +41,13 @@ const Nav = () => {
   return (
     <nav className="flex gap-8">
       {links.map((link, index) => {
-        const isAnchor = link.path.startsWith("#");
+        const hasHash = link.path.includes("#");
         return (
           <Link
             href={link.path}
             key={index}
             className={`${link.path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}
-            onClick={isAnchor ? (e) => handleSmoothScroll(e, link.path) : undefined}
-            scroll={false}
+            onClick={hasHash && pathname === "/" ? (e) => handleSmoothScroll(e, link.path) : undefined}
           >
             {link.name}
           </Link>
